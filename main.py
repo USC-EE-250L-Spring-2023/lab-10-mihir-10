@@ -57,7 +57,8 @@ def final_process(data1: List[int], data2: List[int]) -> List[int]:
 
 
 # TODO: Change this to the IP address of your server
-offload_url = '172.20.10.3:5000'
+offload_url = 'http://172.20.10.3:5000'
+# offload_url = 'http://127.0.0.1:5000'
 
 
 def run(offload: Optional[str] = None) -> float:
